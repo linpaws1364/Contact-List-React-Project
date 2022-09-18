@@ -1,17 +1,30 @@
-# A Simple Contact Manager App with CRUD Operations Using React Js And Fake JSONPLACEHOLDER Rest API.
-- Fake JSONPLACEHOLDER Rest API - https://jsonplaceholder.typicode.com/users
+# Contact List App Using React Js And JSONPLACEHOLDER Rest API.
+
+Please the following link to access the live project - https://swapnilroy-contact-list.netlify.app/
+
+- JSONPLACEHOLDER Rest API - https://jsonplaceholder.typicode.com/users
+
 # Features
 - Fetch and show users from the api - https://jsonplaceholder.typicode.com/users
 - Add a contact, make a POST call to the above url (from where you are fetching) and save the contact in react state. (This will be a dummy request, you won’t be able to add contacts to the server. But the request is valid and will send you some data. Read the guide).
 - Update a contact, make a PUT call to the above url. (Again this is a dummy call).
 - Delete a contact, make a DELETE call to the above url. (Again this is a dummy call).
-# Demo-Link
-`<link>`: [Contact Manager App](https://contact-manager-app-project.netlify.app/)
 
-# Scrennshots
-![one](./src/images/one.jpg)
-![two](./src/images/two.jpg)
-![three](./src/images/three.jpg)
+# Screenshots
+
+Main Page
+![Contacts Book](https://user-images.githubusercontent.com/101203567/190918117-7a9a197e-2e0f-4f02-b741-9e5c492b4d2b.png)
+
+Add to Contact Page
+![Contacts Book (1)](https://user-images.githubusercontent.com/101203567/190918114-aec39c6a-93a0-431f-aa7a-ff6e2477ba08.png)
+
+View Contact Page
+![Contacts Book (2)](https://user-images.githubusercontent.com/101203567/190918113-c97beac5-819c-4f0d-8a14-ff586f639d96.png)
+
+Edit Contact Page
+![Contacts Book (3)](https://user-images.githubusercontent.com/101203567/190918109-d8a3b6d5-f838-4088-8491-6c75fda04f99.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
