@@ -1,0 +1,46 @@
+{
+  "name": "contact-list-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "uuidv4": "^6.2.6",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "- Fake JSONPLACEHOLDER Rest API - https://jsonplaceholder.typicode.com/users # Features - Fetch and show users from the api - https://jsonplaceholder.typicode.com/users - Add a contact, make a POST call to the above url (from where you are fetching) and save the contact in react state. (This will be a dummy request, you won’t be able to add contacts to the server. But the request is valid and will send you some data. Read the guide). - Update a contact, make a PUT call to the above url. (Again this is a dummy call). - Delete a contact, make a DELETE call to the above url. (Again this is a dummy call). # Demo-Link `<link>`: [Contact Manager App](https://contact-manager-app-project.netlify.app/)",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Swapnil Roy",
+  "license": "ISC"
+}

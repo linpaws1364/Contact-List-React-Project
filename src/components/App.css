@@ -1,0 +1,147 @@
+
+/* universal selector */
+*{
+  font-family: 'Comfortaa', cursive !important;
+}
+
+/* hiding scrollbar  */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* style for body  */
+body{
+  background-color: #ABD9FF;
+}
+
+/* style for add contacts and edit contacts pages  */
+.main {
+  margin-top: 3px;
+}
+
+/* design for edit button in edit contacts page  */
+.editing{
+  margin-top: 20px;
+}
+
+/* style for add to contact button and list of contacts heading  */
+.mainer{
+  margin-top: 20px;
+}
+
+.mainer h2{
+  color: #182747;
+}
+
+/* style for add to contact button  */
+.adder{
+  color: white;
+  margin-left: 20px;
+  background-color: #182747;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border: 0.5px solid #182747;
+}
+
+/* style for all buttons  */
+button{
+  cursor: pointer;
+}
+
+/* designs for page heading  */
+.heading{
+  color: #D8D8D8;
+}
+
+.head-con{
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  background-color: #790252;
+  padding: 20px;
+  text-align: center;
+}
+
+/* styles for phone number and email address below each contact  */
+.connection{
+  color: #790252;
+}
+
+.connection:hover{
+  color:#CC3636
+}
+
+/* styles for edit button and delete button on main page  */
+.editor, .deleter{
+  float: right;
+  padding: 10px;
+}
+
+.editor{
+  border: 0px;
+  color: white;
+  margin-right: 20px;
+  background-color: #3f911c;
+}
+
+.deleter{
+  border: 0px;
+  color: white;
+  margin-right: 20px;
+  background-color: #CC3636;
+}
+
+/* design for each contact name on main page  */
+.header{
+  margin-top: 5px !important;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* styles for back button on view contact page  */
+.backer{
+  padding: 12px;
+  border: 0px;
+  color: white;
+  background-color: #25316D;
+}
+
+.right {
+  float: right !important;
+}
+.center-div {
+  text-align: center;
+}
+
+/* style for add button on add contacts page  */
+.adding{
+  padding: 12px;
+  border: 0px;
+  color: white;
+  background-color: #D07000;
+}
+
+/* contact list entry styles  */
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.item {
+  padding: 15px 0px !important;
+}
+
