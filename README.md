@@ -1,4 +1,4 @@
-# Contact List App Using React Js And JSONPLACEHOLDER Rest API.
+# Contact List App Using React Js And JSONPLACEHOLDER Rest API
 
 Please the following link to access the live project - https://swapnilroy-contact-list.netlify.app/
 
