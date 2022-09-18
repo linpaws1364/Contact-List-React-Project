@@ -2,6 +2,8 @@
 
 Please the following link to access the live project - https://swapnilroy-contact-list.netlify.app/
 
+# API used
+
 - JSONPLACEHOLDER Rest API - https://jsonplaceholder.typicode.com/users
 
 # Features
